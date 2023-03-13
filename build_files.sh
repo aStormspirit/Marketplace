@@ -1,2 +1,2 @@
-# build_files.sh
+#!/bin/bash
 python manage.py collectstatic
