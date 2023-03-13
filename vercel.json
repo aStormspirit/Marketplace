@@ -13,5 +13,6 @@
       "src": "/(.*)",
       "dest": "Marketplace/wsgi.py"
     }
-  ]
+  ],
+  "buildCommand": "python manage.py collectstatic | y"
 }
